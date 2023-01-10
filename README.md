@@ -1,2 +1,3 @@
 # Student-Management-System
-A student management system that can be used in a classroom or a school administration.
+
+<h3>This Student Management System is built from scratch using PHP language and MYSQL.</h3>
