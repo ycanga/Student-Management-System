@@ -45,7 +45,14 @@
 							$_SESSION['active']=1;$_SESSION['color']="success";$_SESSION['message']="Öğrenciler Başarı ile Sisteme Yüklendi. !";
 							header("Refresh: 0; url=../pages/upload_student.php");
 						}else{
-							header("Refresh: 0; url=../pages/upload_student.php");
+							$_SESSION['active']=1;$_SESSION['color']="danger";$_SESSION['message']="Tekrar Eden Öğrenci Bilgisi Saptandı. !";
+							?>
+				             <script type="text/javascript">
+				              setTimeout(function(){
+				              	window.location.assign("../pages/upload_student.php")
+				              })
+				              </script>
+				             <?php
 						}
 					}
 				}

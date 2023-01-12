@@ -2,7 +2,7 @@
 
 error_reporting(0);
 
-$dsn = "mysql:host=localhost;dbname=student_db;charset=utf8mb4";
+$dsn = "mysql:host=localhost;dbname=k4lphasof_std;charset=utf8mb4";
 $user = "root";
 $passwd = "";
 

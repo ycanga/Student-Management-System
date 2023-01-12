@@ -11,7 +11,7 @@
 		{
 			$this->Ln(10);
 			foreach ($data as $key => $value) {
-				$this->Write(0,str_replace("ı","i",$value));
+				$this->Write(0,str_replace("Ö","O",str_replace("Ü","U",str_replace("Ç","C",str_replace("İ","I",str_replace("Ş","S",str_replace("Ğ","G",$value)))))));
 				$this->Write(0,"	");
 			}
 		}

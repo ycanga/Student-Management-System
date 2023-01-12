@@ -37,7 +37,6 @@
                             <button type="submit" class="col-5 btn btn-outline-primary mt-3" data-target="#checkedUpdate" data-toggle="modal" name="update" id="btnAllAdd">Seçili Öğrencileri Sınıfa ekle</button>
                           <select class="container form-control text-white mt-3 mb-3" name="class" style="width: 250px;">
                             <option value="0">Sınıf Seçiniz.</option>
-                            <option value="random" onclick="rand()">Rastgele Ata</option>
                             <?php foreach ($classes as $classes) {?>
                             <option value="<?php echo $classes["classes_name"]; ?>"><?php echo "Sınıf: ".$classes["classes_name"]." Mevcut sayısı: ".$classes["classes_count"]; ?></option>
                           <?php } ?>
